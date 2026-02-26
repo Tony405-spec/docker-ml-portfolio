@@ -1,0 +1,3 @@
+﻿FROM tensorflow/tensorflow:2.13.0
+WORKDIR /app
+# More to come in Week 3!
