@@ -1,3 +1,4 @@
-﻿FROM tensorflow/tensorflow:2.13.0
+﻿# Preview for Week 3 - Custom Dockerfile
+FROM tensorflow/tensorflow:2.13.0
 WORKDIR /app
-# More to come in Week 3!
+# Full Dockerfile coming in Week 3!
