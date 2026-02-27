@@ -1,0 +1,5 @@
+﻿# Configuration
+model_name: cifar10_model
+batch_size: 32
+epochs: 5
+learning_rate: 0.001

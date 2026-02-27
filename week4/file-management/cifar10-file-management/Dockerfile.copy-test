@@ -1,0 +1,18 @@
+﻿FROM alpine:latest
+
+# Method 1: Copy single file
+COPY scripts/hello.py /file1.txt
+
+# Method 2: Copy and rename
+COPY scripts/hello.py /file2.txt
+
+# Method 3: Copy entire folder
+COPY config/ /config/
+
+# Method 4: Copy with wildcard (PowerShell style)
+# Not directly supported, use multiple COPY commands
+
+# Method 5: Copy and set permissions
+COPY --chmod=755 scripts/hello.py /file3.txt
+
+CMD ["sh", "-c", "echo 'Files:' && ls -la /"]

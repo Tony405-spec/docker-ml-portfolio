@@ -1,0 +1,17 @@
+﻿# Ignore temporary files
+*.log
+*.tmp
+temp.*
+
+# Ignore IDE files
+.vscode/
+.idea/
+
+# Ignore git
+.git/
+.gitignore
+
+# Ignore large files
+*.zip
+*.tar
+*.gz
