@@ -1,0 +1,17 @@
+﻿# Git
+.git
+.gitignore
+
+# Docker
+.dockerignore
+README.md
+
+# Python cache
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+
+# Local files
+*.log
+.DS_Store
