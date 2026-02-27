@@ -4,7 +4,7 @@
 **tonykenga405**
 
 ## 📦 Docker Image
-	onykenga405/cifar10-trainer:latest
+	tonykenga405/cifar10-trainer:latest
 
 ## 🚀 Quick Start
 
