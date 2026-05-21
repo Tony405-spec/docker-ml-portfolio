@@ -1,7 +1,7 @@
 
 ---
 
-# Docker ML Portfolio: Containerized Machine Learning Workflows
+# **`Docker ML Portfolio: Containerized Machine Learning Workflows`**
 
 **Docker • TensorFlow • CIFAR-10 • MLOps Fundamentals**
 
@@ -14,7 +14,7 @@ A structured four-week learning repository demonstrating containerization best p
 
 ---
 
-## Interactive Demonstration
+## **`Live Demo`**
 
 <p align="center">
   <img src="assets/Docker.gif" alt="Docker ML portfolio demonstration" width="90%">
