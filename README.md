@@ -23,7 +23,7 @@ A structured four-week learning repository demonstrating containerization best p
 ### ***`Results`***
 
 <p align="center">
-  <img src="assets/dockerresults.gif" alt="Docker ML portfolio demonstration" width="90%">
+  <img src="assets/dockerresults1.2.gif" alt="Docker ML portfolio demonstration" width="90%">
 </p>
 
 *Comprehensive walkthrough of containerized ML workflows including detached execution, inline TensorFlow validation, and training pipeline orchestration.*
