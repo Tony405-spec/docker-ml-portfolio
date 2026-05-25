@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Docker ML Portfolio overview: Docker + TensorFlow CIFAR-10 across Weeks 1–4">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220" />
+      <stop offset="1" stop-color="#0a0f1a" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2496ED" />
+      <stop offset="1" stop-color="#FF6F00" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#000000" flood-opacity="0.45" />
+    </filter>
+    <style>
+      .title { font: 700 44px ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji"; fill: #e6edf7; }
+      .subtitle { font: 500 18px ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial; fill: #b7c2d3; }
+      .label { font: 600 14px ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial; fill: #e6edf7; letter-spacing: 0.2px; }
+      .muted { font: 500 12px ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial; fill: #9aa8bf; }
+      .chipText { font: 700 12px ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial; fill: #dbe7ff; }
+      .chip { fill: rgba(255,255,255,0.06); stroke: rgba(255,255,255,0.14); }
+      .card { fill: rgba(255,255,255,0.05); stroke: rgba(255,255,255,0.14); }
+      .cardTitle { font: 800 14px ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial; fill: #e6edf7; }
+      .cardBody { font: 500 12px ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial; fill: #b7c2d3; }
+      .arrow { stroke: rgba(255,255,255,0.28); stroke-width: 2; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)" />
+  <rect x="0" y="0" width="1200" height="6" fill="url(#accent)" />
+
+  <g filter="url(#shadow)">
+    <rect x="48" y="56" width="1104" height="518" rx="22" class="card" />
+  </g>
+
+  <g transform="translate(96 110)">
+    <text class="title" x="0" y="0">Docker ML Portfolio</text>
+    <text class="subtitle" x="0" y="34">Containerized TensorFlow workflows on CIFAR-10 • reproducible builds • file &amp; config management</text>
+  </g>
+
+  <g transform="translate(96 172)">
+    <g>
+      <rect x="0" y="0" width="160" height="34" rx="10" class="chip" />
+      <circle cx="18" cy="17" r="6" fill="#2496ED" />
+      <text class="chipText" x="34" y="22">Docker</text>
+    </g>
+    <g transform="translate(176 0)">
+      <rect x="0" y="0" width="210" height="34" rx="10" class="chip" />
+      <circle cx="18" cy="17" r="6" fill="#FF6F00" />
+      <text class="chipText" x="34" y="22">TensorFlow 2.13</text>
+    </g>
+    <g transform="translate(402 0)">
+      <rect x="0" y="0" width="170" height="34" rx="10" class="chip" />
+      <circle cx="18" cy="17" r="6" fill="#8b5cf6" />
+      <text class="chipText" x="34" y="22">CIFAR-10</text>
+    </g>
+    <g transform="translate(588 0)">
+      <rect x="0" y="0" width="216" height="34" rx="10" class="chip" />
+      <circle cx="18" cy="17" r="6" fill="#22c55e" />
+      <text class="chipText" x="34" y="22">MLOps Fundamentals</text>
+    </g>
+  </g>
+
+  <g transform="translate(96 260)">
+    <text class="label" x="0" y="0">Four-week pathway</text>
+    <text class="muted" x="0" y="22">Progression from Docker fundamentals → image optimization → training pipeline → config/volume patterns</text>
+  </g>
+
+  <g transform="translate(96 310)">
+    <line class="arrow" x1="32" y1="84" x2="976" y2="84" />
+    <g transform="translate(0 0)">
+      <circle cx="32" cy="84" r="10" fill="#2496ED" />
+      <rect x="0" y="0" width="240" height="168" rx="16" class="card" />
+      <text class="cardTitle" x="18" y="34">Week 1 • Foundations</text>
+      <text class="cardBody" x="18" y="58">Container lifecycle &amp; base images</text>
+      <text class="cardBody" x="18" y="78">Sanity checks in TF containers</text>
+      <text class="cardBody" x="18" y="98">Volumes for code/data</text>
+    </g>
+    <g transform="translate(264 0)">
+      <circle cx="32" cy="84" r="10" fill="#0ea5e9" />
+      <rect x="0" y="0" width="240" height="168" rx="16" class="card" />
+      <text class="cardTitle" x="18" y="34">Week 2 • Image Mgmt</text>
+      <text class="cardBody" x="18" y="58">Tagging strategy &amp; reproducibility</text>
+      <text class="cardBody" x="18" y="78">Layer caching basics</text>
+      <text class="cardBody" x="18" y="98">Shareable environment images</text>
+    </g>
+    <g transform="translate(528 0)">
+      <circle cx="32" cy="84" r="10" fill="#FF6F00" />
+      <rect x="0" y="0" width="240" height="168" rx="16" class="card" />
+      <text class="cardTitle" x="18" y="34">Week 3 • Training Image</text>
+      <text class="cardBody" x="18" y="58">Custom Dockerfile for training</text>
+      <text class="cardBody" x="18" y="78">CIFAR-10 load &amp; normalize</text>
+      <text class="cardBody" x="18" y="98">Simple CNN training loop</text>
+    </g>
+    <g transform="translate(792 0)">
+      <circle cx="32" cy="84" r="10" fill="#22c55e" />
+      <rect x="0" y="0" width="240" height="168" rx="16" class="card" />
+      <text class="cardTitle" x="18" y="34">Week 4 • File Patterns</text>
+      <text class="cardBody" x="18" y="58">Config injection (.conf)</text>
+      <text class="cardBody" x="18" y="78">Mount models/output volumes</text>
+      <text class="cardBody" x="18" y="98">Persist artifacts outside image</text>
+    </g>
+
+    <g transform="translate(1020 0)">
+      <path d="M 0 84 L 24 70 L 24 98 Z" fill="rgba(255,255,255,0.28)" />
+    </g>
+  </g>
+
+  <g transform="translate(96 560)">
+    <text class="muted" x="0" y="0">Tip: start at README → run week-specific docker build/run commands → iterate on Dockerfiles and config/volume patterns.</text>
+  </g>
+</svg>
