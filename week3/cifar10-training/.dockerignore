@@ -1,17 +1,15 @@
-﻿# Git
-.git
-.gitignore
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
 
-# Docker
-.dockerignore
-README.md
-
-# Python cache
-__pycache__
-*.pyc
-*.pyo
-*.pyd
-
-# Local files
 *.log
-.DS_Store
+logs/
+outputs/
+models/
+checkpoints/
+
+.git/
+.github/
+*.ipynb_checkpoints/
