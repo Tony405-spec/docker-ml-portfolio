@@ -92,6 +92,8 @@ docker-ml-portfolio/
 
 ## Container Build & Execution Commands
 
+Each Docker example includes a scoped `.dockerignore` so local caches, logs, model outputs, and virtual environments are not sent to the Docker daemon during builds.
+
 ### Week 3: CIFAR-10 Training Pipeline
 
 | Operation | Command |

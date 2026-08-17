@@ -1,19 +1,15 @@
-﻿# Ignore temporary files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
 *.log
-*.tmp
-temp/
-
-# Ignore IDE
-.vscode/
-.idea/
-
-# Ignore git
-.git/
-.gitignore
-
-# Ignore large model files (don't copy into image)
-models/*.h5
-models/*.hdf5
-
-# Ignore outputs
+logs/
 outputs/
+models/
+checkpoints/
+
+.git/
+.github/
+*.ipynb_checkpoints/
