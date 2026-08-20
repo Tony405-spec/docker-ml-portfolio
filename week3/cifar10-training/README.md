@@ -12,5 +12,5 @@
 `ash
 docker pull tonykenga405/cifar10-trainer:latest
 docker run --rm tonykenga405/cifar10-trainer:latest
-docker run --rm tonykenga405/cifar10-trainer:latest python train.py --epochs 5
+docker run --rm tonykenga405/cifar10-trainer:latest python train.py --epochs 5 --batch-size 64 --seed 123
 docker build -t tonykenga405/cifar10-trainer:latest .
