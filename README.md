@@ -7,6 +7,8 @@
 
 A structured four-week learning repository demonstrating containerization best practices for machine learning workloads. Implements reproducible training environments, image optimization strategies, and containerized file management patterns using TensorFlow and the CIFAR-10 dataset.
 
+![Repository overview](assets/repo-overview.png)
+
 ![Docker](https://img.shields.io/badge/Docker-Containerization-2496ED?style=for-the-badge&logo=docker&logoColor=white&labelColor=0D1117)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.13.0-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white&labelColor=0D1117)
 ![Python](https://img.shields.io/badge/Python-3.9+-3776AB?style=for-the-badge&logo=python&logoColor=white&labelColor=0D1117)
